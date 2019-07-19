@@ -1,5 +1,7 @@
 [![Build Status](https://dev.azure.com/Tailspin1010/SpaceGame/_apis/build/status/chrisrharris.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/Tailspin1010/SpaceGame/_build/latest?definitionId=1&branchName=master)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=space-game-web-1010&metric=alert_status)](https://sonarcloud.io/dashboard?id=space-game-web-1010)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
