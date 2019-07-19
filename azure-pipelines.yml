@@ -48,11 +48,11 @@ steps:
         sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/TestResults/Coverage/coverage.opencover.xml
         sonar.exclusions=**/wwwroot/lib/**/*
     condition: |
-        and 
+        and
         (
-            succeeded(),
-            eq(variables['Build.Reason'], 'PullRequest'),
-            eq(variables['System.PullRequest.TargetBranch'], 'master')
+        succeeded(),
+        eq(variables['Build.Reason'], 'PullRequest'),
+        eq(variables['System.PullRequest.TargetBranch'], 'master')
         )
 
 - task: DotNetCoreCLI@2
